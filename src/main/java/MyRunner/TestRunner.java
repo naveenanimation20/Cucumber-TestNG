@@ -44,5 +44,6 @@ public class TestRunner {
     @AfterClass(alwaysRun = true)
     public void tearDownClass() throws Exception {
         testNGCucumberRunner.finish();
+        //*changes by me
     }
 }
